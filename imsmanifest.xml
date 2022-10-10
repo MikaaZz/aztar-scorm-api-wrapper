@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="no"?>
+
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+identifier="com.scorm.organizationcourse.contentpackaging.singlesco.12" version="1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+<!-- identificer utilizing my courseID-->
+
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+
+  <organizations default="prateleira_tot_organização_course">
+    <organization identifier="prateleira_tot_organização_course">
+      <title>Organização no ambiente corporativo</title>
+
+      <item identifier="prateleira_tot_organização_course_item" identifierref="prateleira_tot_organização_course_resource">
+        <title>Organização no ambiente corporativo</title>
+
+      </item>
+
+    </organization>
+
+  </organizations>
+
+  <resources>
+
+    <resource identifier="prateleira_tot_organização_course_resource" type="webcontent" adlcp:scormtype="sco" href="./API/launchPage.html">
+
+      <file href="Pages/episode01.html" />
+      <file href="Pages/styles/episode01.css" />
+      <file href="Pages/scripts/episode01.js" />
+
+      <file href="Pages/episode02.html" />
+      <file href="Pages/styles/episode02.css" />
+      <file href="Pages/scripts/episode02.js" />
+      <file href="Pages/scripts/episode02/tip01.js" />      
+      <file href="Pages/scripts/episode02/tip02.js" />      
+      <file href="Pages/scripts/episode02/tip03.js" />      
+      <file href="Pages/scripts/episode02/tip05.js" />      
+
+      <file href="Pages/episode03.html" />
+      <file href="Pages/styles/episode03.css" />
+      <file href="Pages/scripts/episode03.js" />
+
+      <file href="Pages/episode04.html" />
+      <file href="Pages/styles/episode04.css" />
+      <file href="Pages/scripts/episode04.js" />
+
+      <dependency identifierref="common_files" />
+    </resource>
+
+    <resource identifier="common_files" type="webcontent" adlcp:scormtype="asset">
+
+      <file href="./API/launchPage.html" />
+
+      <file href="./API/API.js" />
+
+      <file href="./API/css/style.css" />
+
+      <file href="./API/assets/image_background_launchPage.png" />
+      <file href="./API/assets/logo_tot.png" />
+
+      <file href="./Fonts/CaviarDreams.ttf" />
+      <file href="./Fonts/CaviarDreams_Bold.ttf" />
+      <file href="./Fonts/RifficFree-Bold.ttf" />
+
+    </resource>
+
+  </resources>
+</manifest>
