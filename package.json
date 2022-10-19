@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "pipwerks-scorm-api-wrapper": "^0.1.2"
-  },
-  "type": "module"
-}

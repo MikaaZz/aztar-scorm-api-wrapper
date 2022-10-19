@@ -1,1 +1,0 @@
-# Aztar SCORM API Wrapper
